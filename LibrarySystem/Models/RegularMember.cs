@@ -1,6 +1,4 @@
-using LibrarySystem.Models;
-
-namespace LibrarySystem;
+namespace LibrarySystem.Models;
 
 public class RegularMember : User
 {
@@ -21,5 +19,5 @@ public class RegularMember : User
         }
         return daysOverdue * FinePerDay;
     }
-    
+
 }
